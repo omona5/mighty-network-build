@@ -5,6 +5,14 @@
   <base href="./">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>mighty-network-unity</title>
+  <script>
+    // Set the production server before Unity reads Application.absoluteURL.
+    const gamePageUrl = new URL(window.location.href);
+    if (!gamePageUrl.searchParams.get('ws') && !gamePageUrl.searchParams.get('server')) {
+      gamePageUrl.searchParams.set('ws', 'wss://game.omona.dev');
+      window.history.replaceState(window.history.state, '', gamePageUrl.href);
+    }
+  </script>
   <style>
     html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #231f20; }
     #unity-canvas { display: block; width: 100%; height: 100%; }
