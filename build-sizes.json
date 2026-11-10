@@ -5,16 +5,16 @@
             "size": 82172
         },
         {
-            "url": "Build/3efff053a7e543a645f14f17ac9ff961.loader.js",
+            "url": "Build/3a9a6f259416ba892c2acceaad643b97.loader.js",
             "size": 117893
         },
         {
-            "url": "Build/8f69a4b21c24f4848dc61f9e84901cfe.data.unityweb",
-            "size": 42401275
+            "url": "Build/b60aa090aeaa1844b1c70ad0e5c1ba12.wasm.unityweb",
+            "size": 10923971
         },
         {
-            "url": "Build/c27c822a01d23185b583efade6fa98e0.wasm.unityweb",
-            "size": 10921747
+            "url": "Build/d5e8e59131a8327f4e6f48186bd7f715.data.unityweb",
+            "size": 42408675
         }
     ]
 }
